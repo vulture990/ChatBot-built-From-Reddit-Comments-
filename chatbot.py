@@ -3,7 +3,6 @@ import json  # used to load the lines from data
 from datetime import datetime  # used to log
 
 
-# to build a big transaction to commit all rows at once instead of one at a time
 
 sql_transaction = []
 #if the database doesn't exist, sqlite3 will create the database
