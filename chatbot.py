@@ -5,7 +5,7 @@ from datetime import datetime  # used to log
 
 
 sql_transaction = []
-#if the database doesn't exist, sqlite3 will create the database
+
 
 connection = sqlite3.connect('{}.db'.format("database2"))
 c = connection.cursor()
